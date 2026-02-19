@@ -13174,6 +13174,15 @@ GenU5.openocd.target=stm32u5x
 GenU5.vid.0=0x0483
 GenU5.pid.0=0x5740
 
+# Generic U545RETxQ
+GenU5.menu.pnum.GENERIC_U545RETXQ=Generic U545RETxQ
+GenU5.menu.pnum.GENERIC_U545RETXQ.upload.maximum_size=524288
+GenU5.menu.pnum.GENERIC_U545RETXQ.upload.maximum_data_size=280576
+GenU5.menu.pnum.GENERIC_U545RETXQ.build.board=GENERIC_U545RETXQ
+GenU5.menu.pnum.GENERIC_U545RETXQ.build.product_line=STM32U545xx
+GenU5.menu.pnum.GENERIC_U545RETXQ.build.variant=STM32U5xx/U535R(B-C-E)TxQ_U545RETxQ
+GenU5.menu.pnum.GENERIC_U545RETXQ.debug.svd_file={runtime.tools.STM32_SVD.path}/svd/STM32U5xx/STM32U545.svd
+
 # Generic U575AGIxQ
 GenU5.menu.pnum.GENERIC_U575AGIXQ=Generic U575AGIxQ
 GenU5.menu.pnum.GENERIC_U575AGIXQ.upload.maximum_size=1048576
